@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce-website-mern-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karkiamrit/ecommerce-website-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karkiamrit/ecommerce-website-MERN/issues"
+  },
+  "homepage": "https://github.com/karkiamrit/ecommerce-website-MERN#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "joi-password-complexity": "^5.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^6.10.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  }
+}
